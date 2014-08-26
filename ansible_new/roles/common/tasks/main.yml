@@ -1,0 +1,6 @@
+---
+ - name: Display current folder
+   shell: pwd
+ - name: Update apt
+   apt: update_cache=yes
+
